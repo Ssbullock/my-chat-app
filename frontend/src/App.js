@@ -12,7 +12,7 @@ function App() {
   const [userInput, setUserInput] = useState('');
   const [statusMessage, setStatusMessage] = useState('');
 
-  const backendUrl = 'http://localhost:5001'; // Change this when deploying
+  const backendUrl = 'https://my-chat-app-1-0ktg.onrender.com';
 
   const register = async () => {
     try {
